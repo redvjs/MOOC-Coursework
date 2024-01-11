@@ -10,6 +10,7 @@ public class AdditionFormula {
         int first = Integer.valueOf(scanner.nextLine());
         System.out.println("Give the second number: ");
         int second = Integer.valueOf(scanner.nextLine());
+        // print "first + second = result"
         System.out.println(first + " + " + second + " = " + (first + second));
                 
         
