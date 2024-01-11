@@ -8,6 +8,7 @@ public class SpeedingTicket {
 
         System.out.println("Give speed: ");
         int speed = Integer.valueOf(scanner.nextLine());
+        // sets condition if speed is greater than 120, String speeding ticket! will be printed
         if (speed > 120) {
             System.out.println("Speeding ticket!");
         }
