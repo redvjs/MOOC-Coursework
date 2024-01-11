@@ -8,14 +8,7 @@ public class SumOfArray {
     }
 
     public static int sumOfNumbersInArray(int[] array) {
-        int index = 0;
-        int count = 0;
-        while (index < array.length) {
-            int number = array[index];
-            count = number + count;
-            index ++;
-            
-        }
-        return count;
+        // Write some code here
+        return 0;
     }
 }

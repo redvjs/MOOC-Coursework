@@ -8,17 +8,7 @@ public class Printer {
     }
 
     public static void printArrayInStars(int[] array) {
-        int index = 0;
-        
-        while (index < array.length) {
-            int number = array[index];
-            String stars = "*";
-            for (int i = 0; i < number; i++) {
-                System.out.print(stars);
-            }
-            System.out.println("");
-            index ++;
-        }
+        // Write some code in here
     }
 
 }

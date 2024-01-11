@@ -8,23 +8,6 @@ public class ArrayPrinter {
     }
 
     public static void printNeatly(int[] array) {
-        int index = 0;
-        while (index < array.length) {
-            int number = array[index];
-            if (array.length == 1) {
-                System.out.print(number);
-                break;
-            }
-            if (index == 0) {
-                System.out.print(number + ", ");
-            } else if( index == array.length - 1) {
-                System.out.print(number);
-           
-            } else if (index > 0) {
-                System.out.print(number + ", ");
-            }
-            
-            index ++;
-        }
+        // Write some code in here
     }
 }
