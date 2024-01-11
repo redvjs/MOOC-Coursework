@@ -7,7 +7,7 @@ public class GradesAndPoints {
         Scanner scan = new Scanner(System.in);
         System.out.println("Give points[0-100]: ");
         int grade = Integer.valueOf(scan.nextLine());
-
+        // checks if input value falls within certain ranges, if true print grade
         if (grade < 0) {
             System.out.println("impossible!");
         } else if (grade >= 0 && grade <= 49) {
